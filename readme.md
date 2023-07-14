@@ -44,5 +44,5 @@ model = LinearRegression()
 model.fit(X_train, y_train)  
 y_pred = model.predict(X_test)
 
-Final plotted results:
+Final plotted results, where blue dots represent test values and orange are the predicted values
 ![img_2.png](img_2.png)
